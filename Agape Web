@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    * {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("agape.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #801784;
+  color: white;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #801784;
+  padding: 20px;
+}
+</style>
+</head>
+<body> 
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1 style="font-size:50px">Welcome to Agape!</h1>
+          <p>Excellence in Christ</p>
+          <button>Register Now!</button>
+        </div>
+      </div>
+      <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about us">About us</a>
+      </div>        
+        </div>
+      </div>
+    </div>
+
+    <h1>About us</h1>
+      <p>...Laudantium sapiente id mollitia! Voluptatum tenetur explicabo laborum eligendi? Consectetur nisi asperiores suscipit inventore vel illo unde harum, nostrum culpa soluta! Quia?</p>
+      <div class="GALLERY">
+        <h1>Gallery</h1>
+        <img src="school-trip.jpg"alt="school-trip" style="width: 500px;">
+        <img src="science-fair.jpg"alt="science-fair" style="width: 400px;">
+        <img src="career.jpg"alt="career-day" style="width: 300px;"><h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit maiores incidunt magni voluptatibus? Ab accusantium voluptas officiis. Doloremque aspernatur, eligendi ex magni reiciendis ipsa consequatur iusto nam minima aliquam pariatur.</h3>
+      </div>
+    </div>
+  </div>
+  <h1>Please Contact</h1>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="Ghana">Ghana</option>
+      <option value="Kenya">Ghana</option>
+      <option value="New York">Ghana</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="???" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
